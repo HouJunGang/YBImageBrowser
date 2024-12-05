@@ -2,17 +2,31 @@ PODS:
   - SDWebImage (5.1.0):
     - SDWebImage/Core (= 5.1.0)
   - SDWebImage/Core (5.1.0)
+  - YYImage (1.0.4):
+    - YYImage/Core (= 1.0.4)
+  - YYImage/Core (1.0.4)
 
 DEPENDENCIES:
   - SDWebImage (>= 5.0.0)
+  - YYImage (from `https://github.com/HouJunGang/YYImage.git`)
 
 SPEC REPOS:
   trunk:
     - SDWebImage
 
+EXTERNAL SOURCES:
+  YYImage:
+    :git: https://github.com/HouJunGang/YYImage.git
+
+CHECKOUT OPTIONS:
+  YYImage:
+    :commit: 16b8124194203800d98ab4d626dedc46562abc38
+    :git: https://github.com/HouJunGang/YYImage.git
+
 SPEC CHECKSUMS:
   SDWebImage: fb387001955223213dde14bc08c8b73f371f8d8f
+  YYImage: 6db68da66f20d9f169ceb94dfb9947c3867b9665
 
-PODFILE CHECKSUM: 4884c7bf2b24201eb5980893088870f0559bcda7
+PODFILE CHECKSUM: b2d3242dafe1c0746166bdc68ccf5abdcae8f444
 
 COCOAPODS: 1.15.2
